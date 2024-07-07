@@ -1,0 +1,27 @@
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  color: rgb(243, 77, 104);
+  font-size: 8rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media (max-width: 400px) {
+  p {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 750px) {
+  p {
+    font-size: 4rem;
+  }
+}
